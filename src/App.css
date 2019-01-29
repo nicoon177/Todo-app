@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: rgba(12,170,209,1);
+  background: -moz-linear-gradient(-45deg, rgba(12,170,209,1) 0%, rgba(161,184,30,1) 72%, rgba(186,186,24,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(12,170,209,1)), color-stop(72%, rgba(161,184,30,1)), color-stop(100%, rgba(186,186,24,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(12,170,209,1) 0%, rgba(161,184,30,1) 72%, rgba(186,186,24,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(12,170,209,1) 0%, rgba(161,184,30,1) 72%, rgba(186,186,24,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(12,170,209,1) 0%, rgba(161,184,30,1) 72%, rgba(186,186,24,1) 100%);
+  background: linear-gradient(135deg, rgba(12,170,209,1) 0%, rgba(161,184,30,1) 72%, rgba(186,186,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0caad1', endColorstr='#baba18', GradientType=1 );
+}
+
+ul { 
+  list-style-type: none; 
+}
+
+.App{
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 0 10px 10px 0;
+}
+
+.todoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.todoInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed black;
+}
+
+.todoContent{
+  display: flex;
+  align-items: center;
+}
+
+.todoInfo h3{
+  cursor: pointer;
+  margin-left: 15px;
+  max-width: 400px;
+}
+
+.imageIcons{
+  width: 30px;
+  height: 30px;
+}
+
+.todoTime{
+  display: flex;
+}
+
+.todoTime span{
+  padding: 5px 20px 0 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.dark-theme {
+  width: 150px;
+  margin-top: 30px;;
+  --styled-select-placeholder__color: #999;
+  --styled-select__color: white;
+  --styled-select__background-color: #555;
+  --styled-select__border-color: black;
+  --styled-select__border-width: 3px;
+  --styled-select__border-radius: 5px;
+ 
+  --styled-select-menu-outer__margin: 10px 0 0 0;
+  --styled-select-menu-outer__padding: 0;
+  --styled-select-menu-outer__background-color: #555;
+  --styled-select-menu-outer__border-color: black;
+  --styled-select-menu-outer__border-style: solid;
+  --styled-select-menu-outer__border-width: 3px;
+ 
+  --styled-select-option__background-color: #444;
+ 
+  --styled-select-option__color--focused: #eee;
+  --styled-select-option__background-color--focused: #333;
+ 
+  --styled-select-option__color--selected: #eee;
+  --styled-select-option__background-color--selected: #444;
+}
