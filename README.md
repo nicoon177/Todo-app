@@ -1,8 +1,8 @@
-Bugs (mandatory):
+<h2>Bugs (mandatory):</h2
  - [x] B1. New task is not added to the todo list after submit.
  - [x] B2. It is only possible to submit a new task and pick a due date when the message is short. It should be possible to only submit a new task and pick a due date if the message is at least 3 characters long.
  - [x] B3. Tasks counter always shows 0, it should display the number of tasks in the list. <br/>
- Tasks (optional):
+ <h2>Tasks (optional):</h2>
  - [x] T1. The navbar title is too boring. Please think about a unique title for your app and put it to the navbar. Make sure to set the app name to the browser tab title (meta tag title). 2 points
  - [x] T2. Change a favicon of the app into something cool. 1 point
  - [ ] T3. Change format of due date in the new task form to be like "10 Jan 2019". 1 point
