@@ -1,5 +1,5 @@
 Bugs (mandatory):
- # [checkbox:checked] B1. New task is not added to the todo list after submit.
+[x] checked   # [checkbox:checked] B1. New task is not added to the todo list after submit.
  # [checkbox:checked] B2. It is only possible to submit a new task and pick a due date when the message is short. It should be possible to only submit a new task and pick a due date if the message is at least 3 characters long.
  # [checkbox:checked] B3. Tasks counter always shows 0, it should display the number of tasks in the list.
 Tasks (optional):
